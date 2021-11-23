@@ -21,17 +21,18 @@ h1{
     background-color:#d5e8d4;
     display:flex;
     max-width:40%;
-    border:2px solid;
+    border:3px solid black;
     flex-direction:column;
     height:auto;
 }		 	
 .box>h2{
     align-self:self-end;
     height:auto;
-    margin:-2px;
+    margin:-3px;
     width: 110px;
     text-align: center;
     white-space:nowrap;
+    border:3px solid black;
 }
 .cap1{
     background-color: #f0a30a;
@@ -78,4 +79,3 @@ h1{
     min-width:80%;
     margin-top:-1,5%;}  
 }
-
