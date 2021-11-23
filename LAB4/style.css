@@ -1,0 +1,81 @@
+html{
+    overflow:auto;
+}
+h1{
+   text-align:center;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    max-width:100%;
+}
+.content {
+    font-weight: 100;
+    text-align: left;
+    width: 90%;
+    font-size: 1.4em;
+    margin: 0.75em auto 1em;
+}
+.box{
+    margin:10px 10px 10px;
+    background-color:#d5e8d4;
+    display:flex;
+    max-width:40%;
+    border:2px solid;
+    flex-direction:column;
+    height:auto;
+}		 	
+.box>h2{
+    align-self:self-end;
+    height:auto;
+    margin:-2px;
+    width: 110px;
+    text-align: center;
+    white-space:nowrap;
+}
+.cap1{
+    background-color: #f0a30a;
+}
+.cap2{
+    background-color: #d80073;
+    color: white;
+}
+.cap3{
+    background-color: #fad9d5;
+}  
+@media screen and  (min-width:992px){
+.container{
+    display:flex;
+    flex-wrap:no-wrap;
+    margin-top:-0.5%;
+    max-height:100%;
+    min-width:100%;
+}
+.box{min-height:auto;}		 
+}
+@media only screen and (min-width:767px ) and (max-width: 991px){
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:-1%;
+    min-width:100%;
+}
+#box3{
+    margin-top:1%;
+    min-width:82.8%;
+}   
+#box1, #box2 {min-width:35%;}
+}
+@media (max-width: 768px ){
+.container{
+    justify-content:flex-end;
+    flex-direction:column;
+    transform:scale(0.7);
+    margin-top:-16%;
+}    
+#box1, #box2, #box3 {
+    align-self:center;
+    min-width:80%;
+    margin-top:-1,5%;}  
+}
+
